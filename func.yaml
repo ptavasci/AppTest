@@ -8,10 +8,10 @@ entrypoint: /python/bin/fdk /function/func.py handler
 memory: 2048
 timeout: 300
 config:
-  TOPIC_OCID: ocid1.onstopic.oc1.iad.aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  ADB_OCID: ocid1.autonomousdatabase.oc1.iad.yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-  COMPANY: ACME CORP XXXXXXXXXXXX
-  DBPWD: XXXXYYYYYYY2121**
-  DBSVC: ZZZZZZ_high
+  TOPIC_OCID: ocid1.onstopic.oc1.sa-saopaulo-1.aaaaaaaaej425bsl6hrsubbyf3iethjtxlf2uogbnunbjmjrs5ad3qe2bz7q
+  ADB_OCID: ocid1.autonomousdatabase.oc1.sa-saopaulo-1.antxeljrbuqrdlaa2lbrrluqmdwa37i5hphpbes5pwqd27lg66vpxizutlkq
+  COMPANY: Provincia ART
+  DBPWD: ClavE.012356,
+  DBSVC: (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=g0c02bba0fcc815_functionadb_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
   DBUSER: ADMIN
   TNS_ADMIN: /tmp/dbwallet
